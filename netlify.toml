@@ -13,10 +13,5 @@
 [[redirects]]
 from = "/netlify/anything"
 to = "https://www.google.com/search?q=anything"
-status = 301
-
-[[redirects]]
-from = "/netlify/anything"
-to = "https://www.google.com/search?q=anything"
 status = 200
 force = true
