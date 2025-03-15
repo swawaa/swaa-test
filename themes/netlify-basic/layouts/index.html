@@ -55,7 +55,13 @@ exit code: 2. You have no more information than this and the site’s source rep
 <p>Let’s get your site up and running!</p>
 <p>Best regards,</p>
 <h3>7. How would you set up an http 301 status redirect from “/netlify/anything” on your site, to https://www.google.com/search?q=anything. Please provide the redirect formatting here. Now, how about a proxy redirect? Please add that proxy redirect rule directly to your site. (Please add the proxy redirect to your website!)</h3>
-    </div>
+<p>For 301 Redirect:<p>[[redirects]]<br>
+from = "/netlify/anything"<br>
+to = "https://www.google.com/search?q=anything"<br>
+status = 301</p><p>As for Proxy Redirect, I've added the rule directly to my site</p><p>[[redirects]]<br>
+from = "/netlify/anything"<br>
+to = "https://www.google.com/search?q=anything"<br>
+status = 301</p>    </div>
   </div>
   <div class="resource-list">
     <ul>
